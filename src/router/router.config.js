@@ -8,6 +8,7 @@ const routes = [
     meta: {
       requireAuth: true
     },
+    redirect: '/home',
     component: () => import('@pages/layout'),
     children: [
       {
